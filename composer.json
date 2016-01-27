@@ -1,0 +1,17 @@
+{
+    "name": "RrrWebAPI_PHP",
+    "description": "A basic Hello World API for Rochester RESTful Responsive Web meetup",
+    "homepage": "http://www.meetup.com/Rochester-RESTful-Responsive-Web/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Keller-Heikkila",
+            "homepage": "https://github.com/brian-kellerheikkila"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "~3.0",
+        "monolog/monolog": "^1.17"
+    }
+}

@@ -1,2 +1,4 @@
-# RRR-Hello
-Hello World API for Rochester RESTful Responsive Web meetup
+# Hello World REST API
+
+Basic "Hello World" REST API using PHP/Slim
+

@@ -1,5 +1,5 @@
 <?php
-$app->options('/v1/hello[/{name}]', function($request, $response, $args) {
+$app->options('/hello[/{name}]', function($request, $response, $args) {
     $hello = new \RRR\Hello();
     $json = json_encode($hello->getOptions(), JSON_PRETTY_PRINT);
     $response = $response->write($json);
@@ -12,7 +12,7 @@ $app->options('/v1/hello[/{name}]', function($request, $response, $args) {
 });
 
 
-$app->get('/v1/hello[/{name}]', function ($request, $response, $args) {
+$app->get('/hello[/{name}]', function ($request, $response, $args) {
     $hello = new \RRR\Hello();
     $name = $args['name'] !== null ? $args['name'] : 'World';
     $json = json_encode($hello->getHello($name));
